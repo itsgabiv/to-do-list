@@ -1,0 +1,11 @@
+// ormconfig.json
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "seu-usuario",
+  "password": "sua-senha",
+  "database": "data-gabiv",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
